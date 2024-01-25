@@ -8,3 +8,4 @@ gcc -shared -o liball.so *.o
 
 # Clean up the temporary object files
 rm *.o
+chmod +x build_library.sh
